@@ -1,0 +1,381 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>DUGEM - HTML Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt"><strong>DUGEM HTML</strong> Documentation by <strong>Themes Awesome</strong> v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">DUGEM - Entertainment HTML Template</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 19 october 2021<br>
+					By: Themes Awesome<br>
+					Support: Ask support access <a href="https://themesawesome.zendesk.com/hc/en-us">HERE</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing DUGEM HTML. If you have any questions that aren't covered in the documentation, then please send me a PM and I'll be happy to help. Thanks again!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+				<ul>
+					<li><a href="#start">Start</a></li>
+					<li><a href="#tips">TIPS</a></li>
+					<li><a href="#files_structure">FILES STRUCTURE</a></li>
+					<li><a href="#html_structure">HTML STRUCTURE</a></li>
+					<li><a href="#css_structure">CSS STRUCTURE</a></li>	
+					<li><a href="#java_script">JAVA SCRIPT</a></li>
+					<li><a href="#customization_styles">CUSTOMIZATION &amp; STYLES</a></li>
+					<li><a href="#responsive">RESPONSIVE</a></li>
+					<li><a href="#source_credits">SOURCE &amp; CREDITS</a></li>
+				</ul>
+		</ol>
+		<br/><br/>
+		<hr>
+		<br/>
+
+		<div class="clear"></div>
+
+		<hr>
+
+		<h3 id="setting-up"><strong>DUGEM HTML</strong> - <a href="#toc">top</a></h3>
+
+		<div class="subsection" id="start">
+			<h4>DUGEM</h4>
+			<p>DUGEM Logo is </p>
+			<img src="assets/images/logo-black@2x.png" style="width:25%;margin: 0 35%;"/>
+			<br/><br/>
+	</div>
+
+		<div class="subsection" id="tips">
+			<h4>Tips</h4>
+			<p class="note">
+			Use Firebug or Chrome Developer Tools.</p>
+			<p class="note">
+			Do not start from scratch, use an existing page from the demo and modify it to learn how it works.</p>
+			<p class="note">
+			Getting an error message? Someone might have seen it too, try a google search for a quick fix.</p>
+			<p class="note">
+			Explore the live demo for pages ideas and sample code.</p>
+		</div>
+		
+		<div class="subsection" id="files_structure">
+			<h4>Files Structure</h4>
+			<pre>
+			- css (Template CSS )
+
+			- fonts (All Fonts & Icons)
+
+			- webfonts (Fontawesome webfonts)
+
+			- images (All Images)
+
+			- js (jQuery file and all plugin js file)
+
+			</pre>
+		</div>
+
+	
+		<div class="subsection" id="html_structure">
+			<h4>Html Structure</h4>
+			<p>	The default grid system utilizes <strong>12 columns</strong>, making for a <strong>1080px </strong>wide depending on your viewport. Below 768px viewports, the columns become fluid and stack vertically.<br>
+				<br>
+				Create a .row and add the appropriate number of .column-*.<br>
+				&nbsp;</p>
+			<h5>HTML Markup</h5>
+			<pre class="brush: html">
+            &lt;div class="container"&gt;
+                &lt;div class="row"&gt;
+                    &lt;div class="column column-1"&gt;
+                        Level 1 column
+                        &lt;div class="column column-2"&gt;Level 2&lt;/div&gt;
+                        &lt;div class="column column-2&gt;Level 2&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+			</pre>
+			<p>	&nbsp;</p>
+		<p>	If you need more information, please visit this site: <a href="http://getbootstrap.com/2.3.2/scaffolding.html#gridSystem">http://getbootstrap.com/2.3.2/scaffolding.html#gridSystem</a></p>
+
+		<h5>Head Script (Default)</h5>
+		<pre>
+            &lt;head&gt;
+                &lt;meta charset="UTF-8" /&gt;
+                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+                &lt;title&lt;Home - DUGEM&lt;/title&gt;
+              
+                &lt;link rel="stylesheet" href="css/aos.css" /&gt;
+                &lt;link rel="stylesheet" href="css/style1.css" /&gt;
+                &lt;link rel="stylesheet" href="css/swiper.min.css" /&gt;
+              
+                &lt;link rel="stylesheet" href="css/lightgallery.min.css" /&gt;
+                &lt;link rel="stylesheet" href="css/plugin.css" /&gt;
+                &lt;link rel="stylesheet" href="css/sm-core-css.css" /&gt;
+                &lt;link rel="stylesheet" href="css/thaw-flex.css" /&gt;
+                &lt;link rel="stylesheet" href="css/font.css" /&gt;
+                &lt;link rel="stylesheet" href="css/fontawesome.min.css" /&gt;
+                &lt;link rel="stylesheet" href="css/style.css" /&gt;
+                &lt;link rel="stylesheet" href="css/responsive.css" /&gt;
+              
+                &lt;link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon" /&gt;
+            &lt;/head&gt;
+		</pre>
+
+		<h5>Header Markup</h5>
+
+		<pre>
+        &lt;!---HEADER START ==================================--&gt;
+        &lt;header id="header" class="header-style-1" &gt;
+            &lt;div class="container" &gt;
+                &lt;div class="row clearfix" &gt;
+                    &lt;div class="header-clear clearfix" &gt;
+                        &lt;div class="header-content-left clearfix" &gt;
+                            &lt;!-- LOGO START
+                            ============================================= -- &gt;
+                            &lt;div class="logo" &gt;
+                                &lt;a href="index.html" &gt;&lt;img src="img/dugem-logos.png" alt="Dugem Logo" / &gt;&lt;/a &gt;
+                            &lt;/div &gt;
+                            &lt;!-- LOGO END -- &gt;
+                        &lt;/div &gt;
+                        &lt;div class="header-content-center clearfix" &gt;
+                            &lt;!-- NAVIGATION START============================================= -- &gt;
+                            &lt;nav class="main-nav" &gt;
+                                &lt;!-- Mobile menu toggle button (hamburger/x icon) -- &gt;
+                                &lt;input id="main-menu-state" type="checkbox" / &gt;
+                                &lt;label class="main-menu-btn sub-menu-trigger" for="main-menu-state" &gt;
+                                    &lt;span class="main-menu-btn-icon" &gt;&lt;/span &gt; Toggle main menu visibility
+                                &lt;/label &gt;
+                                &lt;!-- Sample menu definition -- &gt;
+                                &lt;ul id="main-menu" class="sm sm-clean" &gt;
+                                    &lt;li class="menu-item" &gt;&lt;a href="index.html" class="menu-link active" &gt;Home&lt;/a &gt;&lt;/li &gt;
+                                    &lt;li class="menu-item" &gt;&lt;a href="about.html" class="menu-link" &gt;About&lt;/a &gt;&lt;/li &gt;
+                                    &lt;li class="menu-item" &gt;&lt;a href="event.html" class="menu-link" &gt;Event&lt;/a &gt;&lt;/li &gt;
+                                    &lt;li class="menu-item" &gt;&lt;a href="blog.html" class="menu-link" &gt;News&lt;/a &gt;&lt;/li &gt;
+                                    &lt;li class="menu-item" &gt;&lt;a href="contact.html" class="menu-link" &gt;Contact&lt;/a &gt;&lt;/li &gt;
+                                &lt;/ul &gt;
+                            &lt;/nav &gt;
+                            &lt;!-- NAVIGATION END -- &gt;
+                        &lt;/div &gt;
+                        &lt;div class="header-content-right" &gt;
+                            &lt;div class="header-info head-item clearfix" &gt;
+                                &lt;div class="info-wrap" &gt;
+                                    &lt;div class="search-wrap" &gt;
+                                        &lt;button id="btn-search" class="btn btn--search" &gt;&lt;i class="icon-simple-line-icons-143" &gt;&lt;/i &gt;&lt;/button &gt;
+                                    &lt;/div &gt;
+                                &lt;/div &gt;
+                            &lt;/div &gt;
+                        &lt;/div &gt;
+                        &lt;div class="search" &gt;
+                            &lt;button id="btn-search-close" class="btn--search-close" &gt;&lt;i class="icon-themify-1" &gt;&lt;/i &gt;&lt;/button &gt;
+                            &lt;form class="search__form" &gt;
+                                &lt;input class="search__input" name="search" type="search" placeholder="Search..." / &gt;
+                                &lt;span class="search__info" &gt;Hit enter to search or ESC to close&lt;/span &gt;
+                            &lt;/form &gt;
+                        &lt;/div &gt;&lt;!-- /search -- &gt;
+                    &lt;/div &gt;
+                &lt;/div &gt;
+            &lt;/div &gt;
+        &lt;/header &gt;
+        &lt!---END HEADER-- &gt;
+		</pre>
+
+		<h5>Template</h5>
+
+		<p>DUGEM have 8 template</p>
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+            <li>Event
+                <ul><li>Single Event</li></ul></li>
+			<li>Blog</li>
+			<li>Single Post</li>
+			<li>News</li>
+			<li>Contact</li>
+		</ul>
+
+		<h5>Footer Script Markup</h5>
+		<pre>
+            &lt;!---FOOTER START ==================================--&gt;
+            &lt;footer id="footer" class="footer clearfix"&gt;
+                &lt;div class="footer-wrap clearfix"&gt;
+                    &lt;div class="footer-bottom clearfix"&gt;
+                        &lt;div class="container"&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="foot-col column column-1 text-center clearfix"&gt;
+                                    &lt;div class="logo-footer"&gt;
+                                        &lt;a href="index.html"&gt;&lt;img src="img/dugem-logos.png" alt="Logo-Footer" /&gt;&lt;/a&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+
+                                &lt;div class="foot-col column column-1 text-center clearfix"&gt;
+                                    &lt;div class="social-footer"&gt;
+                                        &lt;ul&gt;
+                                            &lt;li class="soc-icon"&gt;&lt;a href="#"&gt;&lt;i class="icon icon-themify-13"&gt;&lt;/i&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="soc-icon"&gt;&lt;a href="#"&gt;&lt;i class="icon icon-themify-17"&gt;&lt;/i&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="soc-icon"&gt;&lt;a href="#"&gt;&lt;i class="icon icon-themify-11"&gt;&lt;/i&gt;Google+&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="soc-icon"&gt;&lt;a href="#"&gt;&lt;i class="icon icon-social-dribbble"&gt;&lt;/i&gt;Dribbble&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="soc-icon"&gt;&lt;a href="#"&gt;&lt;i class="icon icon-behance2"&gt;&lt;/i&gt;Behance&lt;/a&gt;&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class="foot-col column column-1 text-center clearfix"&gt;
+                                    &lt;div id="copyright" class="copyright-text"&gt;
+                                        © Copyright 2021, Built by ThemesAwesome All rights reserved.
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/footer&gt;
+            &lt;!--END FOOTER--&gt;
+		</pre>
+	
+	<div class="subsection" id="css_structure">
+			<h4>CSS Structure</h4>
+			<p>	The organization of the CSS is one of our priorities.<br>
+			These are the CSS file we&#39;re using in the template:</p>
+		<pre>
+    - aos.css - (Animated on scrooling)
+
+    - font.css - (font styles)
+
+    - fontawesome.min.css - (fontawesome styles)
+
+    - lightgallery.min.css - (Lightbox gallery styles)
+    
+    - swiper.min.css - (swiper carousel style)
+
+    - sm-clean.css - (default theme style for smartmenus)
+
+    - sm-core-css.css - (default style for smartmenus)
+
+    - plugin.css - (additional css for plugin)
+
+    - thaw-flex.css - (grid css system)
+    
+    - style1.css - (search full menu css style)
+
+    - responsive.css (for media query)
+
+    - style.css (Generic styles, resets &amp; normalization)
+
+		</pre>
+		</div>
+		
+		<div class="clear"></div>
+
+		<hr>
+		
+	<div class="subsection" id="java_script">
+		<h4>Javascript</h4>
+			<p>	<strong>jQuery </strong>- is a Javascript library that greatly reduces the amount of code that you must write.<br>
+			For more information, please visit <a href="http://www.jquery.com/">http://www.jquery.com/</a><br>
+			<br>
+			The initialization of the elements, libs and features is made by the file main.js, in the JS folder.<br>
+			Take a look at the &quot;build&quot; function to see what it does.
+            </p>
+		</div>
+		
+	<div class="subsection" id="customization_styles">
+		<h4>Customization &amp; Styles</h4>
+			<h5>Fonts</h5>
+			<p>	To change the font, please take a look in the head part of the website and you will find this tag:</p>
+			<p class="note">We use Poppins, Roboto, Montserrat, PTSans, Fontawesome, Elusive-Icons font family in DUGEM. You can check the font at root > assets > css > fonts</p>
+			<p>	To change the font, install it manually with convert the download zipped font to transfonter.org</p>
+
+			
+			
+	</div>		
+
+
+	<div class="subsection" id="responsive">
+			<h4>Responsive</h4>
+			<p>	The template supports a handful of media queries to help make your projects more appropriate on different devices and screen resolutions.</p>
+			<h5><br>Here&#39;s what&#39;s included:&nbsp;</h5>
+			<p style="margin-left: 40px;">
+				<strong>Label</strong>: Large display<br>
+				<strong> Layout width:</strong> 1200px and up<br>
+				<strong> Column width:</strong> 70px<br>
+				<strong> Gutter width: </strong>30px<br>
+				<br>
+				<strong>Label</strong>: Default<br>
+				<strong> Layout width: </strong>980px and up<br>
+				<strong> Column width: </strong>60px<br>
+				<strong> Gutter width:</strong> 20px<br>
+				<br>
+				<strong>Label</strong>: Portrait tablets<br>
+				<strong> Layout width: </strong>768px and above<br>
+				<strong> Column width:</strong> 42px<br>
+				<strong> Gutter width: </strong>20px<br>
+				<br>
+				<strong> Label: </strong>Phones to tablets<br>
+				<strong> Layout width: </strong>767px and below<br>
+				<strong> Column width:</strong> Fluid columns, no fixed widths<br>
+				<br>
+				<strong> Label: </strong>Phones<br>
+				<strong> Layout width:</strong> 480px and below<br>
+				<strong> Column width:</strong> Fluid columns, no fixed widths</p>
+			
+	</div>
+
+	<div class="subsection" id="source_credits">
+			<h4>Source &amp; Credits</h4>
+			<p class="note">
+			The images included in preview are for demonstration purposes and should always be replaced with your own work.</p>
+		<p style="margin-left: 40px;">
+			<br>
+			<ul>
+		<li>Resources Used:
+		<ul>
+		<li><a href="https://michalsnik.github.io/aos/">Animate On Scrool</a></li>
+        <li><a href="https://www.smartmenus.org/">SmartMenus</a></li>
+		<li><a href="https://sachinchoolur.github.io/lightGallery/">lightGallery</a></li>
+        <li><a href="https://fonts.google.com/">Google fonts</a></li>
+        <li><a href="https://swiperjs.com/">Swiper</a></li>
+        <li><a href="https://tympanus.net/Development/SearchUIEffects/">Search UI Effects</a></li>
+        <li><a href="https://fontawesome.com/">Fontawesome</a></li>
+        <li><a href="http://elusiveicons.com/">Elusiveicons</a></li>
+
+		</ul>
+		</li>
+		</ul>
+		<div class="clear"></div>
+
+		<hr>
+		
+		<p>Once again, thank you for purchasing this theme. Customer satisfaction is our #1 priority, which is why we always endeavour to provide the best service we can. We’re only an email away if you ever need us!</p> 
+		
+		<p class="append-bottom alt large"><strong>Themes Awesome Team</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
