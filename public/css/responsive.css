@@ -6,6 +6,9 @@
   .table-events .event {
     display: inline-table;
   }
+  .small-screen-intro {
+   display: none;
+  }
 
   .event-mobile {
     display: none;
@@ -144,7 +147,7 @@
   }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:650px) {
 
 .header-expanded .main-nav{
   padding-top: 15px;
@@ -589,6 +592,11 @@
 @media only screen and (max-width: 640px) {
 .first-day-countdown {
     padding-left: 0;
+}
+
+.small-screen-intro {
+  padding: 175px 0px 0px 0px;
+  position: relative;
 }
 
 .countdown-title {

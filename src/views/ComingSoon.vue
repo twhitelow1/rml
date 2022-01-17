@@ -70,6 +70,19 @@
                 </div>
                 <!-- GlOBAL BLOCK END -->
                 <!-- Contact us -->
+                <div class="small-screen-intro">
+                    <div class="container">
+                        <div class="book-wrap news-title grid grid-cols-12 gap-24">
+                            <div class="the-title col-span-6 sm:col-span-12 res:col-span-12">
+                                <h5 class="head-title-2"> Rocky Mountain Live</h5>
+                                <h2 class="head-title-1"> Bringing Live Events To The Rockies</h2>
+                                <!-- <p class="dugem-text"> Talent looking for a talent buyer? Venue looking for a promoter to book talent? Looking to get involved? Want to say hello? </p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact US END -->
+                <!-- Contact us -->
                 <div class="book-table">
                     <div class="container">
                         <div class="book-wrap news-title grid grid-cols-12 gap-24">

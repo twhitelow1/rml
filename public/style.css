@@ -2974,3 +2974,10 @@ h2.post-title.entry-title a:hover {
   color: #aaaaaa;
   margin-right: 5px;
 }
+/*-----------------------------------------------------------------------------------*/
+/*  3g.  SMALL SCREEN WELCOME SECTION
+/*-----------------------------------------------------------------------------------*/
+.small-screen-intro {
+  padding: 175px 0px 0px 0px;
+  position: relative;
+}
