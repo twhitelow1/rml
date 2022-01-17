@@ -7,8 +7,8 @@
                     </div>
                     <div class="image-title">
                         <p>Bringing live events to the High Rockies of Colorado</p>
-                        <p> ducimus qui blanditiis</p>
-                        <a href="#" class="button-basic-1" data-aos="fade-up">All Events</a>
+                        <p> Stay tuned for more information on upcoming events in Colorado Ski Towns.</p>
+                        <!-- <a href="#" class="button-basic-1" data-aos="fade-up">All Events</a> -->
                     </div>
                     <div class="video-background">
                         <video autoplay muted loop id="myVideo">
