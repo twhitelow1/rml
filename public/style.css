@@ -760,9 +760,10 @@ header {
 
 .logo {
   display: flex;
-  float: left;
-  margin-left: 10px;
-  margin-right: 28px;
+  justify-content: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -40px;
 }
 
 .header-style-1-wrap .main-menu ul.sm-clean>li+li {
