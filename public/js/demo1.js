@@ -8,29 +8,29 @@
  * Copyright 2016, Codrops
  * http://www.codrops.com
  */
-;(function(window) {
+; (function (window) {
 
 	'use strict';
 
 	var openCtrl = document.getElementById('btn-search'),
 		closeCtrl = document.getElementById('btn-search-close'),
-		searchContainer = document.querySelector('.search'),
-		inputSearch = searchContainer.querySelector('.search__input');
+		searchContainer = document.querySelector('.search');
+	// inputSearch = searchContainer.querySelector('.search__input');
 
 	function init() {
-		initEvents();	
+		initEvents();
 	}
 
 	function initEvents() {
 		if (openCtrl) {
-		openCtrl.addEventListener('click', openSearch);
+			openCtrl.addEventListener('click', openSearch);
 		}
 		if (closeCtrl) {
-		closeCtrl.addEventListener('click', closeSearch);
+			closeCtrl.addEventListener('click', closeSearch);
 		}
-		document.addEventListener('keyup', function(ev) {
+		document.addEventListener('keyup', function (ev) {
 			// escape key.
-			if( ev.keyCode == 27 ) {
+			if (ev.keyCode == 27) {
 				closeSearch();
 			}
 		});
