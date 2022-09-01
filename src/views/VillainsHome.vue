@@ -41,8 +41,8 @@
                                     <p class="dugem-text" data-aos="fade-up">Join us for reggae, ska, and punk rock vibes brought to you by The Supervillains from Central Florida. The Florida-bred swamp reggae rockers have been bending genres, partying hard, touring the world, and facilitating dank memories for a lifetime.</p>
                                 </div>
                                 <div class="global-buy " data-aos="fade-up">
-                                    <a href="/single-event.html" class="button-basic-1">View Detail</a>
-                                    <a href="#" class="button-basic-2">Get Ticket</a>
+                                    <a href="/event" class="button-basic-1">View Detail</a>
+                                    <a href="https://www.eventbrite.com/e/the-supervillains-live-agave-tickets-408276404717" class="button-basic-2">Get Ticket</a>
                                 </div>
                                 <!-- <div class="global-countdown">
                                     <div class="event-counter clearfix">
@@ -294,25 +294,7 @@
                 <!-- TESTIMONIAL BLOCK END -->
 
                 <!-- BOOK TABLE -->
-                <div class="book-table">
-                    <div class="container">
-                        <div class="book-wrap news-title grid grid-cols-12 gap-24">
-                            <div class="the-title col-span-6 sm:col-span-12 res:col-span-12">
-                                <h5 class="head-title-2"> / RESERVATION </h5>
-                                <h2 class="head-title-1"> Book A Table Now
-                                    <span class="title-end">.</span></h2>
-                                <p class="dugem-text"> Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor. Sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
-                            </div>
-                            <div class="contact-form-style col-span-6 sm:col-span-12 res:col-span-12">
-                                <input type="text" name="your-name" size="40" placeholder="Name">
-                                <input type="text" name="your-name" size="40" placeholder="Email">
-                                <textarea name="your-message" cols="40" rows="10" placeholder="Text"></textarea>
-                                <input type="submit" value="Send" class="button-basic-1">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <contact-form />
                 <!-- BOOK TABLE END -->
             </section>
             <!-- SECTION END -->
@@ -323,11 +305,11 @@
 </style>
 
 <script>
-import EventsTable from "../components/EventsTable.vue";
+import ContactForm from "../components/ContactForm.vue";
 
 export default {
   components: {
-    EventsTable,
+    ContactForm,
   },
   data: function () {
     return {
