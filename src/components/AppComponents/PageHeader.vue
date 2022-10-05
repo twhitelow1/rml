@@ -24,8 +24,8 @@
                                     <!-- Sample menu definition -->
                                     <ul id="main-menu" class="sm sm-clean">
                                         <li class="menu-item"><a href="/" class="menu-link">Home</a></li>
-                                        <!-- <li class="menu-item"><a href="about.html" class="menu-link">About</a></li>
-                                        <li class="menu-item"><a href="event.html" class="menu-link">Event</a></li>
+                                        <li class="menu-item"><a href="https://rockymountainlive.store" class="menu-link">Merch</a></li>
+                                        <!-- <li class="menu-item"><a href="event.html" class="menu-link">Event</a></li>
                                         <li class="menu-item"><a href="blog.html" class="menu-link active">News</a></li>
                                         <li class="menu-item"><a href="contact.html" class="menu-link">Contact</a></li> -->
                                     </ul>

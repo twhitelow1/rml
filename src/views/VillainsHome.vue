@@ -38,12 +38,16 @@
                                     <a href="#" class="button-basic-1">Reggae</a><a href="#" class="button-basic-1">Ska</a><a href="#" class="button-basic-1">Punk</a>
                                     <h2 data-aos="fade-up">The Supervillains Live @ Agave Nightclub</h2>
                                     <h5 data-aos="fade-up"> 30 SEPTEMBER 2022</h5>
-                                    <p class="dugem-text" data-aos="fade-up">Join us for reggae, ska, and punk rock vibes brought to you by The Supervillains from Central Florida. The Florida-bred swamp reggae rockers have been bending genres, partying hard, touring the world, and facilitating dank memories for a lifetime.</p>
+                                    <p class="dugem-text" data-aos="fade-up">Join us for reggae, ska, and punk rock vibes brought to you by The Supervillains from Central Florida. The Florida-bred swamp reggae rockers have been bending genres, partying hard, touring the world, and facilitating dank memories for a lifetime.
+                                    <br/>
+                                    <a href="/event" class="btnbasic2">View Detail</a>
+                                    <a href="https://www.eventbrite.com/e/the-supervillains-live-agave-tickets-408276404717" class="btnbasic2">Get Ticket</a>
+                                    </p>
+                                    <br/>
+                                    <br/>
+                                    <br/>
                                 </div>
-                                <div class="global-buy " data-aos="fade-up">
-                                    <a href="/event" class="button-basic-1">View Detail</a>
-                                    <a href="https://www.eventbrite.com/e/the-supervillains-live-agave-tickets-408276404717" class="button-basic-2">Get Ticket</a>
-                                </div>
+                                <div></div>
                                 <!-- <div class="global-countdown">
                                     <div class="event-counter clearfix">
                                         <div class="countdown">
@@ -302,6 +306,23 @@
 </template>
 
 <style>
+.btnbasic2 {
+  font-family: "PT Sans", Sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  fill: #ffffff;
+  color: #ffffff;
+  display: inline-block;
+  text-transform: capitalize;
+  background-color: #ff2c55;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ff2c55;
+  border-radius: 50px 50px 50px 50px;
+  padding: 10px 20px;
+}
 </style>
 
 <script>
