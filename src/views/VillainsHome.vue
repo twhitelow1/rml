@@ -22,7 +22,7 @@
                     <div class="container">
                         <div class="global-block-wrap grid grid-cols-12 gap-8" style="margin-bottom:50px;">
                             <div class="col-span-12 res:col-span-12 global-title">
-                                <h2 data-aos="fade-up">Upcoming Events</h2>
+                                <h2 data-aos="fade-up">Past Events</h2>
                             </div>
                             <div class="global-img col-span-5 sm:col-span-12 res:col-span-12">
                                 <div class="item-content">
