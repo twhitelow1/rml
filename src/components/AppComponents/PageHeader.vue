@@ -42,7 +42,7 @@
                                 </div>
                             </div>
                             <div class="search">
-                                <button id="btn-search-close" class="btn--search-close"><i class="icon-themify-1"></i></button>
+                                <!-- <button id="btn-search-close" class="btn--search-close"><i class="icon-themify-1"></i></button> -->
                                 <form class="search__form">
                                     <input class="search__input" name="search" type="search" placeholder="Search..." />
                                     <span class="search__info">Hit enter to search or ESC to close</span>
